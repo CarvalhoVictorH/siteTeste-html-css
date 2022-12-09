@@ -17,7 +17,7 @@ body {
 }
 
 .center {
-    width: 1280px;
+    width: 1200px;
     margin: 0 auto;
 }
 
@@ -49,9 +49,10 @@ body {
     height: calc(100% + 30px);
     position: relative;
     top: -15px;
-    border: 8px solid #ccc;
+    border: 12px solid rgba(120, 120, 120, 0.7);
     float: right;
     background-color: white;
+    background-clip: padding-box;
 
 }
 
@@ -101,4 +102,28 @@ body {
 
 .form input[type=submit]:hover {
     background-color: #0b0d2b;
+}
+
+.container-info {
+    margin-top: 40px;
+    padding: 35px;
+    float: left;
+    width: 619px;
+    height: 270px;
+    background-color: rgba(33, 35, 67, 0.7);
+}
+
+.container-info ul {
+    list-style-position: inside;
+}
+
+.container-info ul li {
+    color: white;
+    margin-top: 15px;
+}
+
+.container-session {
+    padding: 40px 0;
+    background-color: #DDDDDD;
+
 }
