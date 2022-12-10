@@ -11,6 +11,7 @@ body {
 }
 
 .header {
+    min-width: 1200px;
     width: 100%;
     height: 60px;
     background-color: rgb(17, 18, 120)
@@ -19,6 +20,7 @@ body {
 .center {
     width: 1200px;
     margin: 0 auto;
+    padding: 0 2%;
 }
 
 .header img {
@@ -31,6 +33,7 @@ body {
 }
 
 .container-banner {
+    min-width: 1200px;
     width: 100%;
     height: 557px;
     background-image: url(../img/header_bg.png);
@@ -105,11 +108,11 @@ body {
 }
 
 .container-info {
-    margin-top: 40px;
+    margin-top: 100px;
     padding: 35px;
     float: left;
-    width: 619px;
-    height: 270px;
+    width: 500px;
+    height: 240px;
     background-color: rgba(33, 35, 67, 0.7);
 }
 
@@ -123,7 +126,56 @@ body {
 }
 
 .container-session {
+    min-width: 1200px;
     padding: 40px 0;
     background-color: #DDDDDD;
+    text-align: center;
+}
 
+.container-session p {
+    width: 698px;
+    display: inline-block;
+    margin: 15px 0;
+    text-align: justify;
+}
+
+.arrow {
+    width: 55px;
+    height: 55px;
+    background-image: url(../img/arrow.png);
+    background-size: 100% 100%;
+    position: relative;
+    top: 60px;
+    left: 50%;
+    margin-left: -20px;
+}
+
+.section-2 {
+    padding: 90px 0;
+}
+
+.section-2>h2 {
+    text-align: center;
+    font-weight: normal;
+    color: #462663;
+}
+
+.container-section-2 {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.container-single {
+    float: left;
+    width: 33.333%;
+    padding: 30px;
+}
+
+.container-single img {
+    width: 65px;
+}
+
+.container-single p {
+    padding: 10px 25px;
+    text-align: justify;
 }
